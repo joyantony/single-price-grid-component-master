@@ -1,0 +1,10 @@
+height: 475px
+width: 640px
+
+white box
+height: 218px
+width: 640px
+
+cyan box
+height: 260px
+width: 340px
