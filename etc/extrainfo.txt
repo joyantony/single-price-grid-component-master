@@ -1,4 +1,4 @@
-height: 475px
+height: 478px
 width: 640px
 padding top: 46px
 padding right: 40px

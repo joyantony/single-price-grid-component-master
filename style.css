@@ -18,7 +18,7 @@ html, body{
 }
 
 .main{
-  height: 475px;
+  height: 478px;
   width: 630px;
   background-color: #ffffff;
   border-radius: 5px;
@@ -27,7 +27,7 @@ html, body{
 
 .top{
   height: 220px;
-  padding: 3rem 2.5rem 0 2.5rem;
+  padding: 2.875rem 2.5rem 0 2.5rem;
 }
 
 .top h2{
@@ -44,21 +44,38 @@ html, body{
 
 .bottom{
   flex-direction: column;
-  height: 255px;
+  color: #ffffff;
+}
+
+.bottom h3{
+  margin-top: 0;
+}
+
+.bottom h1{
+  display: inline-block;
+  margin: 0;
+}
+
+.description{
+  font-size: 0.9375rem;
 }
 
 .bottom-left{
-  width: 50%;
-  height: 207px;
+  width: 235px;
+  height: 167px;
   float: left;
-  background: hsl(179, 62%, 43%);
+  background: #2BB3B1;
+  border-bottom-left-radius: 5px;
+  padding: 2.5rem;
 }
 
 .bottom-right{
-  width: 50%;
-  height: 207px;
+  width: 235px;
+  height: 167px;
   float: left;
-  background: hsl(179, 61%, 75%);
+  background: #4ABEBD;
+  border-bottom-right-radius: 5px;
+  padding: 2.5rem;
 }
 
 
