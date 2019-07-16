@@ -27,7 +27,7 @@ html, body{
 
 .top{
   height: 220px;
-  padding: 3rem 2.5rem;
+  padding: 3rem 2.5rem 0 2.5rem;
 }
 
 .top h2{
@@ -44,6 +44,21 @@ html, body{
 
 .bottom{
   flex-direction: column;
+  height: 255px;
+}
+
+.bottom-left{
+  width: 50%;
+  height: 207px;
+  float: left;
+  background: hsl(179, 62%, 43%);
+}
+
+.bottom-right{
+  width: 50%;
+  height: 207px;
+  float: left;
+  background: hsl(179, 61%, 75%);
 }
 
 
