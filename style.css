@@ -14,24 +14,26 @@ html, body{
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  box-sizing: border-box;
 }
 
 .main{
-  height: 478px;
+  height: 475px;
   width: 630px;
   background-color: #ffffff;
   border-radius: 5px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .top{
   height: 220px;
-  padding: 2.875rem 2.5rem 0 2.5rem;
+  padding: 2.5rem 2.5rem 0 2.5rem;
 }
 
 .top h2{
   color: hsl(179, 62%, 43%);
+  margin-top: 0;
 }
 
 .top h3{
@@ -43,7 +45,8 @@ html, body{
 }
 
 .bottom{
-  flex-direction: column;
+  display: flex;
+  flex-direction: row;
   color: #ffffff;
 }
 
@@ -61,18 +64,14 @@ html, body{
 }
 
 .bottom-left{
-  width: 235px;
-  height: 167px;
-  float: left;
+  flex: 1;
   background: #2BB3B1;
   border-bottom-left-radius: 5px;
   padding: 2.5rem;
 }
 
 .bottom-right{
-  width: 235px;
-  height: 167px;
-  float: left;
+  flex: 1;
   background: #4ABEBD;
   border-bottom-right-radius: 5px;
   padding: 2.5rem;
