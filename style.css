@@ -24,6 +24,7 @@ html, body{
   border-radius: 5px;
   margin: auto;
   box-sizing: border-box;
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 .top{
@@ -101,4 +102,47 @@ html, body{
   background: #bfdf32;
   font-size: 18px;
   color: #F8F8FF;
+}
+
+.signup:hover{
+  background: #b0cc34;
+  cursor: pointer;
+}
+
+@media (max-width: 700px){
+  .main{
+    height:auto;
+    width: 100%;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  .top{
+    height: auto;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    border-radius: none;
+  }
+
+  .bottom{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    color: #ffffff;
+  }
+  .bottom-left{
+    background: #2BB3B1;
+    padding: 2.5rem;
+    border-bottom-left-radius: 0px;
+  }
+  
+  .bottom-right{
+    background: #4ABEBD;
+    padding: 2.5rem;
+    border-bottom-right-radius: 0px;
+  }
+
+  .signup:hover{
+    background: #b0cc34;
+    cursor: auto;
+  }
 }
